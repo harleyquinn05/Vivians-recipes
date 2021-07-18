@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600&display=swap');
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  padding-left: 5px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search-button{
+  background-color: crimson;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.count{
+  font-weight: 200;
+}
+.type{
+  font-weight: 600;
+}
